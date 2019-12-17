@@ -1,0 +1,26 @@
+{
+  "name": "chungou/core",
+  "description": "chungou-core",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/tigerlees/chungou-core",
+  "authors": [
+    {
+      "name": "Tiger",
+      "email": "573556382@qq.com"
+    }
+  ],
+  "require": {},
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "",
+      "Core\\Annotations\\": "annotations"
+    }
+  }
+}
